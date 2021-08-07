@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,900;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+*{
+    scrollbar-width: auto;
+    scrollbar-color: #304ffd #ffffff;}
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #FC495E;
+    border-radius: 11px;
+    border: 2px solid #ffffff;
+  }
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:10vh;
+    margin-bottom:0px;   
+}
+h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom:0px;
+    font-size: 48px;
+}
+h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+span{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  flex: 1; 
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  
+}
+.input{
+    padding: 12px;
+    width: 70vh;
+    height: 60px;
+    margin-bottom:1.5rem;
+    border: none;
+    border-radius: 13px;
+    outline: none;
+    background: #F5F6F8;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+.input:focus {
+    border: 1px solid #314DE7;
+  }
+.input:valid {
+    border: 1px solid #314DE7;
+  }
+.button {
+    display: block;
+    outline: none;
+    border: none;
+    padding:1.2vh;
+    height: 60px;
+    width: 70vh;
+    background-color: #304FFD;
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+  }
+  .button:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  }
+  .accordion-menu {
+	display: flex;
+    position: relative;
+	left: 50%;
+	margin: 10vh 0;
+	transform: translate(-50%, 0);
+	max-width: 300vh;
+    padding: 0px 20px 20px;
+}
+p {
+	color: rgba(48, 69, 92, 0.8);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+	position: relative;
+	overflow: hidden;
+	max-height: 800px;
+	opacity: 1;
+	transform: translate(0, 0);
+	margin-top: 14px;
+	z-index: 2;
+}
+ul {
+	list-style: none;
+	perspective: 900;
+	padding: 0 20px 10px;
+    margin: 0;
+}
+ul li {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 4px;
+    border-top: 1px dotted #dce7eb;
+}
+ul li .arrow {
+	position: absolute;
+	transform: translate(-6px, 0);
+	margin-top: 16px;
+	right: 0;
+
+}
+ul li .fas{
+	color:#304ffd;
+	font-size: 15px;
+	margin-right: 10px;
+}
+ul li .arrow:before, ul li .arrow:after {
+	content: "";
+	position: absolute;
+	background-color: #304ffd;
+	width: 3px;
+	height: 9px;
+}
+ul li .arrow:before {
+	transform: translate(-2px, 0) rotate(45deg);
+}
+ul li .arrow:after {
+	transform: translate(2px, 0) rotate(-45deg);
+}
+ul li input[type=checkbox] {
+	position: absolute;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+    z-index: 1;    
+    opacity: 0;
+}
+ul li input[type=checkbox]:checked ~ p {
+	margin-top: 0;
+	max-height: 0;
+	opacity: 0;
+	transform: translate(0, 50%);
+}
+ul li input[type=checkbox]:checked ~ .arrow:before {
+	transform: translate(2px, 0) rotate(45deg);
+}
+ul li input[type=checkbox]:checked ~ .arrow:after {
+	transform: translate(-2px, 0) rotate(-45deg);
+}
+.transition, p, ul li .arrow:before, ul li .arrow:after {
+	transition: all 0.25s ease-in-out;
+}
+
+.flipIn, h1, ul li {
+	animation: flipdown 0.5s ease both;
+}
+.no-select, h2 {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	user-select: none;
+}
+@keyframes flipdown {
+	0% {
+		opacity: 0;
+		transform-origin: top center;
+		transform: rotateX(-90deg);
+	}
+
+	5% { opacity: 1; }
+
+	80% { transform: rotateX(8deg); }
+
+	83% { transform: rotateX(6deg); }
+
+	92% { transform: rotateX(-3deg); }
+
+	100% {
+		transform-origin: top center;
+		transform: rotateX(0deg);
+	}
+}
+footer{
+    text-align: center; 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom:0px;
+    font-size: 18px;
+}
+.names{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom:0px;
+    font-size: 18px;
+}
+.names:hover{
+    color:#314DE7;
+}
