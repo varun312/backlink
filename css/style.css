@@ -4,7 +4,7 @@
     scrollbar-width: auto;
     scrollbar-color: #304ffd #ffffff;}
   *::-webkit-scrollbar {
-    width: 15px;
+    width: 13px;
   }
   *::-webkit-scrollbar-track {
     background: #ffffff;
@@ -103,7 +103,7 @@ span{
 	margin: 10vh 0;
 	transform: translate(-50%, 0);
 	max-width: 300vh;
-    padding: 0px 20px 20px;
+    padding: 0px 20px;
 }
 p {
 	color: rgba(48, 69, 92, 0.8);
@@ -129,7 +129,6 @@ ul li {
 	position: relative;
 	padding: 0;
 	margin: 0;
-	padding-bottom: 4px;
     border-top: 1px dotted #dce7eb;
 }
 ul li .arrow {
