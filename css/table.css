@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,900;1,600&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+font-family: Montserrat;
+  display: grid;
+  padding: 100px;
+  color: #4f546c;
+  font-style: normal;
+font-weight: 600;
+font-size: 18px;
+}
+h1{
+  
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+color: #08B051;
+padding-bottom: 5vh;
+}
+table {
+    border-collapse: collapse;
+  background-color: white;
+  text-align: center;
+  border-radius: 26px;
+  overflow: hidden;
+}
+  thead {
+    color: #8F969F;
+    border-bottom: 1px solid #4f546c;
+
+  }
+  th {
+    padding: 1rem 2rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  td {
+    padding: 1rem 2rem;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color:black;
+  }
+
+  a {
+    text-decoration: none;
+    color: #314DE7;
+  }
+  tr:nth-child(even) {
+    background-color: #f4f6fb;
+  }
