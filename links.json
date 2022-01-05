@@ -1,0 +1,176 @@
+[
+	{
+		"name": "Imgur",
+		"regex": "^[a-zA-Z0-9]{7}$",
+		"type": "Image",
+		"url": "https://imgur.com/$URL"
+	},
+	{
+		"name": "Imgur",
+		"regex": "^[a-zA-Z0-9]{7}$",
+		"type": "Image Album",
+		"url": "https://imgur.com/a/$URL"
+	},
+	{
+		"name": "YouTube",
+		"regex": "^[a-zA-Z0-9_-]{11}$",
+		"type": "Video",
+		"url": "https://youtu.be/$URL"
+	},
+	{
+		"name": "YouTube",
+		"regex": "^PLL[a-zA-Z0-9_-]{31}$",
+		"type": "Video Playlist",
+		"url": "https://www.youtube.com/playlist?list=$URL"
+	},
+	{
+		"name": "YouTube",
+		"regex": "^[a-zA-Z0-9_-]{24}$",
+		"type": "YouTube Channel",
+		"url": "https://www.youtube.com/channel/$URL"
+	},
+	{
+		"name": "TinyURL",
+		"regex": "^[a-z0-9]{7}$",
+		"type": "Shortened Link",
+		"url": "https://tinyurl.com/$URL"
+	},
+	{
+		"name": "Goo.gl",
+		"regex": "^[a-z0-9]{5}$",
+		"type": "Shortened Link",
+		"url": "https://goo.gl/$URL"
+	},
+	{
+		"name": "Bitly",
+		"regex": "^[a-zA-Z0-9]{7}$",
+		"type": "Shortened Link",
+		"url": "https://bit.ly/$URL"
+	},
+	{
+		"name": "Pastebin",
+		"regex": "^[a-zA-Z0-9]{8}$",
+		"type": "Text",
+		"url": "http://pastebin.com/$URL"
+	},
+	{
+		"name": "Mediafire",
+		"regex": "^[a-z0-9]{15}$",
+		"type": "File",
+		"url": "http://www.mediafire.com/file/$URL/"
+	},
+	{
+		"name": "MEGA",
+		"regex": "^[a-zA-Z0-9_-]{8}\\![a-zA-Z0-9_-]{43}$",
+		"type": "File",
+		"url": "https://mega.nz/#!$URL"
+	},
+	{
+		"name": "MEGA",
+		"regex": "^#\\![a-zA-Z0-9_-]{8}\\![a-zA-Z0-9_-]{43}$",
+		"type": "File",
+		"url": "https://mega.nz/$URL"
+	},
+	{
+		"name": "MEGA",
+		"regex": "^[a-zA-Z0-9_-]{8}\\![a-zA-Z0-9_-]{22}$",
+		"type": "File Folder",
+		"url": "https://mega.nz/#F!$URL"
+	},
+	{
+		"name": "MEGA",
+		"regex": "^#F\\![a-zA-Z0-9_-]{8}\\![a-zA-Z0-9_-]{22}$",
+		"type": "File Folder",
+		"url": "https://mega.nz/$URL"
+	},
+	{
+		"name": "Gyazo",
+		"regex": "^[a-z0-9]{32}$",
+		"type": "Image",
+		"url": "https://gyazo.com/$URL"
+	},
+	{
+		"name": "Dailymotion",
+		"regex": "^[a-zA-Z0-9]{19}$",
+		"type": "Video",
+		"url": "http://www.dailymotion.com/video/$URL"
+	},
+	{
+		"name": "Vimeo",
+		"regex": "^\\d{9}$",
+		"type": "Video",
+		"url": "https://vimeo.com/$URL"
+	},
+	{
+		"name": ".onion",
+		"regex": "^[a-z0-9]{16}$",
+		"type": "Tor Link (Requires Tor)",
+		"url": "http://$URL.onion/"
+	},
+	{
+		"name": "Facebook",
+		"regex": "^\\d{15}$",
+		"type": "Facebook Profile",
+		"url": "https://www.facebook.com/profile.php?id=$URL"
+	},
+	{
+		"name": "Reddit",
+		"regex": "^[a-zA-Z0-9]{6}$",
+		"type": "Reddit Post",
+		"url": "https://redd.it/$URL"
+	},
+	{
+		"name": "Lightshot",
+		"regex": "^[a-z0-9]{6}$",
+		"type": "Image",
+		"url": "http://prnt.sc/$URL"
+	},
+	{
+		"name": "Dropbox",
+		"regex": "^[a-z0-9_-]{15}$",
+		"type": "File",
+		"url": "https://www.dropbox.com/s/$URL/"
+	},
+	{
+		"name": "Discord",
+		"regex": "^[a-zA-Z0-9]{7}$",
+		"type": "Discord Invite",
+		"url": "https://discord.gg/$URL"
+	},
+	{
+		"name": "Picosong",
+		"regex": "^[a-zA-Z0-9]{4}$",
+		"type": "Audio",
+		"url": "http://picosong.com/$URL"
+	},
+	{
+		"name": "Google Docs",
+		"regex": "^[a-zA-Z0-9_-]{44}$",
+		"type": "Document",
+		"url": "https://docs.google.com/document/d/$URL/"
+	},
+	{
+		"name": "Vocaroo",
+		"regex": "^[a-zA-Z0-9_-]{12}$",
+		"type": "Audio",
+		"url": "http://vocaroo.com/i/$URL"
+	},
+	{
+		"name": "Clyp",
+		"regex": "^[a-z0-9]{8}$",
+		"type": "Audio",
+		"url": "https://clyp.it/$URL"
+	},
+	{
+		"name": "Instagram",
+		"regex": "^[a-zA-Z0-9_-]{11}$",
+		"type": "Instagram Post",
+		"url": "https://www.instagram.com/p/$URL/"
+	},
+	{
+		"name": "ISBN",
+		"regex": "^(978|979)\\d{10}$",
+		"type": "Book",
+		"url": "http://www.isbnsearch.org/isbn/$URL"
+	}
+]

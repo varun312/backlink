@@ -7,9 +7,8 @@
         <meta name="description" content="hunts the internet for possible links based on a given backlink.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <link rel="stylesheet" href="css/table.css">
         <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
     <link rel="manifest" href="favicons/site.webmanifest">
     </head>
@@ -21,9 +20,11 @@
         <div class="form">
             <div style="max-width:794px;flex:1"></div>
             <div class="input-container">
-                <input type="text" class="input" placeholder ="enter your backlink" required>
+                <input type="text" class="input" placeholder ="enter your backlink" required id="txt">
             </div>
-            <input type="submit" class="button" value="search">
+            <input type="submit" class="button" value="search" id="mybtn">
+        </div>
+        <div id="tableDIV">
         </div>
         <div class="accordion-menu">
             <ul>
@@ -36,7 +37,8 @@
                 </li>
             </ul>
         </div>
-        <footer><h2>A project by <span class="names">Kshitij Kapoor</span> and <span class="names">Varun Sharma</span></h2></footer>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <footer><h2>A project by <span class="names"><a href="https://discordapp.com/users/701408408074584175">Varun Sharma</a></span> and <span class="names"><a href="https://discordapp.com/users/690519146701783042">Kshitij Kapoor</a></span></h2></footer>
+        <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> -->
+        <script src="index.js"></script>
     </body>
 </html>

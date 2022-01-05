@@ -7,16 +7,7 @@
   padding: 0;
 }
 
-body {
-font-family: Montserrat;
-  display: grid;
-  padding: 100px;
-  color: #4f546c;
-  font-style: normal;
-font-weight: 600;
-font-size: 18px;
-}
-h1{
+h3{
   
 font-family: Montserrat;
 font-style: normal;
@@ -24,13 +15,24 @@ font-weight: 900;
 font-size: 24px;
 color: #08B051;
 padding-bottom: 5vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 2vh;
+
 }
+
 table {
     border-collapse: collapse;
   background-color: white;
   text-align: center;
   border-radius: 26px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
   thead {
     color: #8F969F;
