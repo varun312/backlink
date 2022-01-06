@@ -138,12 +138,6 @@
 		"url": "https://discord.gg/$URL"
 	},
 	{
-		"name": "Picosong",
-		"regex": "^[a-zA-Z0-9]{4}$",
-		"type": "Audio",
-		"url": "http://picosong.com/$URL"
-	},
-	{
 		"name": "Google Docs",
 		"regex": "^[a-zA-Z0-9_-]{44}$",
 		"type": "Document",
