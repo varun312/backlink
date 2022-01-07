@@ -133,7 +133,7 @@
 	},
 	{
 		"name": "Discord",
-		"regex": "^[a-zA-Z0-9]{7}$",
+		"regex": "^[a-zA-Z0-9]{8}$",
 		"type": "Discord Invite",
 		"url": "https://discord.gg/$URL"
 	},
