@@ -1,5 +1,17 @@
 [
 	{
+		"name": "Whatsapp",
+		"regex": "^[a-zA-Z0-9]{22}$",
+		"type": "Whatsapp Invite Link",
+		"url": "https://chat.whatsapp.com/$URL"
+	},
+	{
+		"name": "Whatsapp",
+		"regex": "^[a-zA-Z0-9]{22}$",
+		"type": "Whatsapp Web Invite Link",
+		"url": "https://web.whatsapp.com/accept?code=$URL"
+	},
+	{
 		"name": "Imgur",
 		"regex": "^[a-zA-Z0-9]{7}$",
 		"type": "Image",
