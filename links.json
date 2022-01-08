@@ -1,5 +1,11 @@
 [
 	{
+		"name": "IMDB",
+		"regex": "^[t0-9]{9}$",
+		"type": "IMDB title link",
+		"url": "https://www.imdb.com/title/$URL"
+	},
+	{
 		"name": "Pinterest",
 		"regex": "^[0-9]{18}$",
 		"type": "Pinterest Image Pin",
