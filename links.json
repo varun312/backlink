@@ -1,21 +1,33 @@
 [
 	{
+		"name": "Google Forms",
+		"regex": "^[a-zA-Z0-9_-]{44}$",
+		"type": "Google Forms",
+		"url": "https://docs.google.com/forms/d/$URL"
+	},
+	{
+		"name": "Google Forms",
+		"regex": "^[a-zA-Z0-9_-]{17}$",
+		"type": "Google Forms (shortened)",
+		"url": "https://forms.gle/$URL"
+	},
+	{
 		"name": "Google Spreadsheet",
 		"regex": "^[a-zA-Z0-9_-]{33}$",
 		"type": "Google Docs Spreadsheet",
-		"url": "https://docs.google.com/spreadsheets/d/$URL "
+		"url": "https://docs.google.com/spreadsheets/d/$URL"
 	},
 	{
 		"name": "Google Presentation",
 		"regex": "^[a-zA-Z0-9_-]{44}$",
 		"type": "Google Docs Presentation",
-		"url": "https://docs.google.com/presentation/d/$URL "
+		"url": "https://docs.google.com/presentation/d/$URL"
 	},
 	{
 		"name": "Google Drive",
 		"regex": "^[a-zA-Z0-9_-]{33}$",
 		"type": "Drive Folder",
-		"url": "https://drive.google.com/drive/u/0/folders/$URL/ "
+		"url": "https://drive.google.com/drive/u/0/folders/$URL/"
 	},
 	{
 		"name": "Google Drive",
