@@ -1,5 +1,17 @@
 [
 	{
+		"name": "Google Spreadsheet",
+		"regex": "^[a-zA-Z0-9_-]{33}$",
+		"type": "Google Docs Spreadsheet",
+		"url": "https://docs.google.com/spreadsheets/d/$URL "
+	},
+	{
+		"name": "Google Presentation",
+		"regex": "^[a-zA-Z0-9_-]{44}$",
+		"type": "Google Docs Presentation",
+		"url": "https://docs.google.com/presentation/d/$URL "
+	},
+	{
 		"name": "Google Drive",
 		"regex": "^[a-zA-Z0-9_-]{33}$",
 		"type": "Drive Folder",
