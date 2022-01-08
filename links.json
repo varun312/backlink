@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Pinterest",
+		"regex": "^[0-9]{18}$",
+		"type": "Pinterest Image Pin",
+		"url": "https://www.pinterest.com/pin/$URL/"
+	},
+	{
 		"name": "Whatsapp",
 		"regex": "^[a-zA-Z0-9]{22}$",
 		"type": "Whatsapp Invite Link",
