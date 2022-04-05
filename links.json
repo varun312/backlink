@@ -207,7 +207,7 @@
 		"name": "Vocaroo",
 		"regex": "^[a-zA-Z0-9_-]{12}$",
 		"type": "Audio",
-		"url": "http://vocaroo.com/i/$URL"
+		"url": "http://vocaroo.com/$URL"
 	},
 	{
 		"name": "Clyp",
