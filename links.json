@@ -1,5 +1,23 @@
 [
 	{
+		"name": "Notion Document",
+		"regex": "^[a-z0-9]{32}$",
+		"type": "notion.so document",
+		"url": "https://imgflip.com/i/$URL"
+	},
+	{
+		"name": "Google Meet",
+		"regex": "^[a-zA-Z]{3}+-[a-zA-Z]{3}+-[a-zA-Z]{3}",
+		"type": "Google Meeting",
+		"url": "meet.google.com/$URL"
+	},
+	{
+		"name": "Imgflip",
+		"regex": "^[a-zA-Z0-9]{7}$",
+		"type": "Meme Image",
+		"url": "https://imgflip.com/i/$URL"
+	},
+	{
 		"name": "Google Forms",
 		"regex": "^[a-zA-Z0-9_-]{44}$",
 		"type": "Google Forms",
@@ -62,14 +80,20 @@
 	{
 		"name": "Imgur",
 		"regex": "^[a-zA-Z0-9]{7}$",
+		"type": "Image Album",
+		"url": "https://imgur.com/a/$URL"
+	},
+	{
+		"name": "Imgur",
+		"regex": "^[a-zA-Z0-9]{7}$",
 		"type": "Image",
 		"url": "https://imgur.com/$URL"
 	},
 	{
 		"name": "Imgur",
 		"regex": "^[a-zA-Z0-9]{7}$",
-		"type": "Image Album",
-		"url": "https://imgur.com/a/$URL"
+		"type": "Image",
+		"url": "https://i.imgur.com/$URL.jpg"
 	},
 	{
 		"name": "YouTube",
