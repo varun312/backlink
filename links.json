@@ -6,12 +6,6 @@
 		"url": "https://imgflip.com/i/$URL"
 	},
 	{
-		"name": "Google Meet",
-		"regex": "^[a-zA-Z]{3}+-[a-zA-Z]{3}+-[a-zA-Z]{3}",
-		"type": "Google Meeting",
-		"url": "meet.google.com/$URL"
-	},
-	{
 		"name": "Imgflip",
 		"regex": "^[a-zA-Z0-9]{7}$",
 		"type": "Meme Image",
