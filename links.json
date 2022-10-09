@@ -1,5 +1,17 @@
 [
 	{
+		"name": "Spotify Track",
+		"regex": "^[a-zA-Z0-9]{22}$",
+		"type": "spotify",
+		"url": "https://open.spotify.com/track/$URL"
+	},
+	{
+		"name": "Spotify Playlist",
+		"regex": "^[a-zA-Z0-9]{22}$",
+		"type": "spotify",
+		"url": "https://open.spotify.com/playlist/$URL"
+	},
+	{
 		"name": "Notion Document",
 		"regex": "^[a-z0-9]{32}$",
 		"type": "notion.so document",
