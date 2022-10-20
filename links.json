@@ -1,5 +1,17 @@
 [
 	{
+		"name": "ctxt.io link",
+		"regex": "^(2\/)[a-zA-Z0-9_-]{10}$",
+		"type": "ctxt.io link",
+		"url": "https://ctxt.io/$URL"
+	},
+	{
+		"name": "ctxt.io link",
+		"regex": "^[a-zA-Z0-9-]{10}$",
+		"type": "ctxt.io link",
+		"url": "https://ctxt.io/2/$URL"
+	},
+	{
 		"name": "Spotify Track",
 		"regex": "^[a-zA-Z0-9]{22}$",
 		"type": "spotify",
