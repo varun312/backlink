@@ -1,5 +1,11 @@
 [
 	{
+		"name": "ControlC Pastebin",
+		"regex": "^[a-z0-9]{8}$",
+		"type": "controlc paste",
+		"url": "https://controlc.com/$URL"
+	},
+	{
 		"name": "Wheel of names spinwheel",
 		"regex": "^[a-z0-9]{3}(-)[a-z0-9]{3}$",
 		"type": "spinwheel",
