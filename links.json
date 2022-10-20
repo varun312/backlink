@@ -246,6 +246,12 @@
 		"url": "https://www.dropbox.com/s/$URL/"
 	},
 	{
+		"name": "Discord Permanent Invite",
+		"regex": "^[a-zA-Z0-9]{10}$",
+		"type": "Discord Permanent Invite",
+		"url": "https://discord.gg/$URL"
+	},
+	{
 		"name": "Discord",
 		"regex": "^[a-zA-Z0-9]{8}$",
 		"type": "Discord Invite",
