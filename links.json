@@ -126,7 +126,7 @@
 		"url": "https://i.imgur.com/$URL.jpg"
 	},
 	{
-		"name": "Imgur",
+		"name": "Imgpile",
 		"regex": "^[a-zA-Z0-9]{6}$",
 		"type": "Image",
 		"url": "https://imgpile.com/i/$URL"
