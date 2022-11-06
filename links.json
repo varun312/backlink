@@ -39,7 +39,7 @@
 		"name": "Notion Document",
 		"regex": "^[a-z0-9]{32}$",
 		"type": "notion.so document",
-		"url": "https://imgflip.com/i/$URL"
+		"url": "https://notion.so/$URL"
 	},
 	{
 		"name": "Imgflip",
@@ -124,6 +124,12 @@
 		"regex": "^[a-zA-Z0-9]{7}$",
 		"type": "Image",
 		"url": "https://i.imgur.com/$URL.jpg"
+	},
+	{
+		"name": "Imgpile",
+		"regex": "^[a-zA-Z0-9]{6}$",
+		"type": "Image",
+		"url": "https://imgpile.com/i/$URL"
 	},
 	{
 		"name": "YouTube",
