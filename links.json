@@ -24,6 +24,12 @@
 		"url": "https://ctxt.io/2/$URL"
 	},
 	{
+		"name": "Spotify User",
+		"regex": "^[a-zA-Z0-9]{25}$",
+		"type": "spotify",
+		"url": "https://open.spotify.com/user/$URL"
+	},
+	{
 		"name": "Spotify Track",
 		"regex": "^[a-zA-Z0-9]{22}$",
 		"type": "spotify",
